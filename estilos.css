@@ -1,0 +1,44 @@
+*{
+    background-color: whitesmoke
+}
+
+/* Estado de las imagenes de serie */
+img{
+    max-width: 300px;
+    opacity: 0.5;
+    transition: all 0.5s;
+}
+
+/* TRASLADOS DE NUESTRAS IMAGENES o elementos */
+.transform_up{
+    /* clase para que la imagen parta de abajo y suba */
+
+   transform: translateY(20%);
+   /* Recuerdo que los cambios en el eje vertical son Y */
+
+}
+
+.transform_down{
+   transform: translateY(-20%);
+
+}
+
+.transform_left{
+    transform: translateX(20%);
+ 
+ }
+
+ .transform_right{
+    transform: translateX(-20%);
+ 
+ }
+
+
+ .aparece{
+    /* va a permitir volver al estado natural nuestras IMG, es 
+    decir, sin opacidad, ni nada. */
+
+    opacity:1;
+    transform: none;
+    /* Para que se le quite el transform tambien. */
+ }
