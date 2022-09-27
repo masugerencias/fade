@@ -10,28 +10,15 @@ img{
 }
 
 /* TRASLADOS DE NUESTRAS IMAGENES o elementos */
-.transform_up{
+.transform_down{
     /* clase para que la imagen parta de abajo y suba */
 
-   transform: translateY(20%);
+   transform: translateY(-40%);
    /* Recuerdo que los cambios en el eje vertical son Y */
 
 }
 
-.transform_down{
-   transform: translateY(-20%);
 
-}
-
-.transform_left{
-    transform: translateX(20%);
- 
- }
-
- .transform_right{
-    transform: translateX(-20%);
- 
- }
 
 
  .aparece{
