@@ -5,7 +5,7 @@
 /* Estado de las imagenes de serie */
 img{
     max-width: 300px;
-    opacity: 0.5;
+    opacity: 0.0;
     transition: all 0.5s;
 }
 
@@ -13,7 +13,7 @@ img{
 .transform_down{
     /* clase para que la imagen parta de abajo y suba */
 
-   transform: translateY(-40%);
+   transform: translateY(40%);
    /* Recuerdo que los cambios en el eje vertical son Y */
 
 }
